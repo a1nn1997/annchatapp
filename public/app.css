@@ -1,0 +1,118 @@
+body{
+    height: 120vh;
+    background-image: linear-gradient(rgb(255, 161, 239), rgb(109, 34, 248));
+}
+#heading1{
+text-align: center;
+margin: 20px;
+font-size: 2.2em
+}
+#username{
+display: flex;
+text-align: center;
+width: 25%;
+height: 50px;
+margin: 100px auto; 
+padding: 20px 50px ;
+font-size: 2em
+}
+#login{
+    display: flex;
+    padding : 8px 15px;
+    border : 2px solid rgb(255, 234, 234);
+    background-color: rgb(92, 92, 253);
+    color :rgba(245, 245, 245, 0.493);
+    margin: 10px auto;
+    font-size: 2rem;
+    border-radius : 5px;
+    cursor : pointer;
+}
+#send{
+    display: flex;
+    padding : 8px 15px;
+    border : 2px solid rgb(255, 234, 234);
+    background-color: rgb(92, 92, 253);
+    color :rgba(245, 245, 245, 0.493);
+    margin: 0px auto;
+    font-size: 1.2rem;
+    border-radius : 5px;
+    cursor : pointer;
+}
+#start-record-btn{
+    display: flex;
+    padding : 8px 15px;
+    border : 2px solid rgb(255, 234, 234);
+    background-color: rgb(92, 92, 253);
+    color :rgba(245, 245, 245, 0.493);
+    margin: 0px auto;
+    font-size: 1.2rem;
+    border-radius : 5px;
+    cursor : pointer;
+}
+#pause-record-btn{
+    display: flex;
+    padding : 8px 15px;
+    border : 2px solid rgb(255, 234, 234);
+    background-color: rgb(92, 92, 253);
+    color :rgba(245, 245, 245, 0.493);
+    margin: 0px auto;
+    font-size: 1.2rem;
+    border-radius : 5px;
+    cursor : pointer;
+}
+#msg{
+    display: flex;
+    text-align: center;
+    width: 25%;
+    height: 20px;
+    margin: 10px auto;
+    padding: 10px 50px;
+    font-size: 1.5em;
+}
+#note-textarea{
+    display: flex;
+    border: 2px solid black;
+    width: 80%;
+    border-radius: 6px;
+    font-size: 1.5em;
+    align-items: center;
+    margin: 20px auto;
+
+}
+#recording-instructions {
+    margin: auto;
+    text-align: center;
+    font-size:1.2em;
+    font-weight:bold;
+    color:rgba(4, 4, 128, 0.959)
+}
+#audioOutput11{
+    display: flex;
+    padding : 8px 15px;
+    width: 20%;
+    border : 2px solid rgb(255, 234, 234);
+    text-align: center;
+    background-color: rgb(92, 92, 253);
+    color :rgba(245, 245, 245, 0.493);
+    margin: 0px auto;
+    font-size: 1.2rem;
+    border-radius : 5px;
+    cursor : pointer;
+}
+#audioOutput1{
+    
+    font-size: 1.2rem;
+    display: flex;
+    padding : 8px 15px;
+    width: 30%;
+    border : 2px solid rgb(255, 234, 234);
+    text-align: center;
+    background-color: rgb(92, 92, 253);
+    color :rgba(245, 245, 245, 0.493);
+    margin: 0px auto;
+    cursor : pointer;
+}
+#audioOutput::after{
+    background-color: rgb(226, 43, 195);
+    font-size: 1.2rem;
+}
