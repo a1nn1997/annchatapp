@@ -11,7 +11,7 @@ const socket = io()
 
 // shows when it connects
 socket.on('connect', () => {
-    console.log('Connected ' + socket.id)
+    //console.log('Connected ' + socket.id)
 })
 
 socket.on('chat_rcvd', (data) => {
@@ -41,7 +41,7 @@ $(() => {
     })
 
     socket.on('loggedin', () => {
-        console.log('Login successful')
+       // console.log('Login successful')
         $('#loginform').hide()
         $('#chatbox').show()
     })
@@ -49,9 +49,9 @@ $(() => {
 
 
     $('#send').click(() => {
-        console.log('Sending chat')
+       // console.log('Sending chat')
         message=$('#msg').val()
-        console.log(message)
+        //console.log(message)
         socket.emit('chat', {msg: $('#msg').val()})
         
         if(audioOutput.checked)
@@ -73,7 +73,7 @@ var noteContent = '';
     var recognition = new SpeechRecognition();
   }
   catch(e) {
-    console.error(e);
+    //console.error(e);
     $('.no-browser-support').show();
     $('.app').hide();
   }

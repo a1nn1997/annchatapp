@@ -12,7 +12,7 @@ const io = socketio(server);
 let idUserMap = {}
 
 io.on('connection', (socket) => {
-    console.log('Connected ' + socket.id)
+   // console.log('Connected ' + socket.id)
 
     socket.on('login', (data) => {
         idUserMap[socket.id] = data.username
